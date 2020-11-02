@@ -15,7 +15,7 @@ public class HttpClient {
   private void getLocal(){
     CloseableHttpClient httpClient = HttpClientBuilder.create().build();
     // 创建Get请求
-    HttpGet httpGet = new HttpGet("https://www.baidu.com");
+    HttpGet httpGet = new HttpGet("http://localhost:8801");
 
     // 响应模型
     CloseableHttpResponse response = null;
